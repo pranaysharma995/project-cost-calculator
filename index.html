@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+
+<title>estimate your projet</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+    @font-face{
+    font-family:clanpro;
+    src:url(asstets/font/clanpro-book.woff);
+     }
+    @font-face{
+    font-family:clanpro-bold;
+    src:url(asstets/font/clanpro-bold.woff);
+    }
+    @font-face{
+    font-family:clanpro-light;
+    src:url(asstets/font/clanpro-black.woff);
+     }
+    body{
+        font-family:clanpro-bold;
+    }
+    div{
+        font-family:clanpro-bold;
+    }
+        .one{
+            min-width: 20%;
+            background-color: #1FBBA6;
+            height: 60%;
+            min-height: 700px;
+            background-image:url("asstets/img/plush-design.jpg");
+            background-repeat:no-repeat;
+        }
+        .one img{
+            
+            margin-left: 80px;
+            margin-right: 80px;
+            margin-bottom: 20px;
+            display:none;
+            
+            
+        }
+        .one h1{
+            padding: 0px 15px;
+            color:#333;
+            font-family:clanpro-bold;
+            margin-top:42%;
+        }
+        .two{
+            max-width: 75%;
+        }
+        .tick-box{
+            width: 50px;
+            height: auto;
+        }
+input.largerCheckbox
+{
+width: 30px;
+height: 30px;
+background-color: #1FBBA6;
+color:#fff;
+}
+
+        .view-details{
+            background-color: white;
+            color: #1FBBA6;
+            font-size: 14px;
+            font-family: clanpro-bold;
+            
+        }
+        .app-platform{
+            background: white;
+            position: relative
+             
+        }
+        .app-name{
+            font-size: 18px;
+            font-family: clanpro-bold;
+            
+        }
+        .poin-slider li span{
+            padding:0px 10px;
+        }
+          .poin-slider {
+
+    right: 22px;
+    position: fixed;
+    top: 11%;
+    
+    padding: 0px 0px;
+    z-index: 10;
+    
+    height: 70%;
+    width: 32px;
+   
+        }
+        .poin-slider li{
+            display: block;
+            margin-top:5px;
+            background-color: #dfdfdfdf;
+            box-shadow: 0px 0px 0px #dfdfdf;
+    box-sizing: border-box;
+    width: 28px;
+    height: 28px;
+    border-radius:50%;
+        }
+        .poin-slider li:hover{
+            background-color:#1FBBA6;
+            color:#fff;
+        }
+        .poin-slider li.active{
+            background-color:#1FBBA6;
+            box-shadow: 0px 0px 0px #dfdfdf;
+    box-sizing: border-box;
+    width: 28px;
+    height: 28px;
+    margin-top:5px;
+     border-radius:50%;
+        }
+        .which-platform{
+            padding: 30px 20px 0px 20px;
+            font-size:30px;
+        }
+        .number{
+            font-size: 14px;
+        }
+        .app-platform p{
+            padding: 10px 20px;
+           
+        }
+        .right-side-carousel{
+            margin-top: 500px;
+            right: 200px;
+            margin-right: 320px;
+            right: 10px;
+        }
+        .left-side-carousel{
+            margin-top: 500px;
+            left: 300px;
+        }
+        .left-right-slide{
+            position: absolute;
+            top: 0px
+                left:50px;
+            bottom: -154px;
+        }
+        .right-side{
+            position: absolute;
+            right: -470px;
+        }
+        .left-side{
+            position: absolute;
+            left: 365px;
+        }
+        .app-platform p{
+            font-family: clanpro-bold;
+        }
+        .total-amount{
+            box-sizing: border-box;
+            border: 1px solid #1FBBA6;
+            padding: 90px 90xpx;
+            margin: 60px 110px;
+                
+        }
+        .total-amount h3{
+            text-align: center;
+            padding: 90px 90xpx;
+        }
+        .start-my-project{
+            padding:7px 14px;
+            border-radius:20px;
+            
+            background-color: #1FBBA6;
+            
+    font-family: clanpro-bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    z-index: 3;
+    
+    border: 3px solid #1fbba6;
+
+    text-shadow: 0px 0px 0px #fff;
+    color:#fff;
+}
+        
+        .start-my-project:hover{
+            color: #1FBBA6;
+            background-color:#fff;
+            border: 3px solid #1fbba6;
+            
+        }
+        .previous {
+    padding: 10px 44px;
+    background-color: #1fbba6;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    font-family: clanpro-bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    z-index: 3;
+    position: relative;
+    border: 3px solid #1fbba6;
+    margin:0px -65px;
+    text-shadow:0px 0px 0px #fff;
+
+}
+.previous:hover{
+    background-color:#fff;
+    color:#1fbba6;
+    text-decoration:none;
+}
+  .nexti {
+    padding: 10px 44px;
+    background-color: #1fbba6;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    font-family: clanpro-bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    z-index: 3;
+    position: relative;
+    border: 3px solid #1fbba6;
+    margin:0px -41px;
+     text-shadow:0px 0px 0px #fff;
+}
+.nexti:hover{
+    background-color:#fff;
+    color:#1fbba6;
+    text-decoration:none;
+}
+.container-fluid{
+    position:relative;
+}
+..checkbox {
+    margin: 50px auto;
+    position: relative;
+    display: block;
+    width: 100px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    opacity: 0.00000001;
+    position: absolute;
+    left: 0;
+    margin-left: -20px;
+}
+.helper {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    user-select: none;
+    color: #e7e7e7;
+    margin:-10px 0px;
+}
+.helper:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 4px;
+    width: 22px;
+    height: 22px;
+    transition: transform 0.28s ease;
+    border-radius: 3px;
+    border: 2px solid #1fbba6;
+}
+.helper:after {
+  content: '';
+    display: block;
+    width: 10px;
+    height: 5px;
+    border-bottom: 2px solid #1fbba6;
+    border-left: 2px solid #1fbba6;
+    -webkit-transform: rotate(-45deg) scale(0);
+    -moz-transform: rotate(-45deg) scale(0);
+    -ms-transform: rotate(-45deg) scale(0);
+    transform: rotate(-45deg) scale(0);
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+input[type="checkbox"]:checked ~ .helper::before {
+    color: #1fbba6;
+}
+
+input[type="checkbox"]:checked ~ .helper::after {
+    -webkit-transform: rotate(-45deg) scale(1);
+    -moz-transform: rotate(-45deg) scale(1);
+    -ms-transform: rotate(-45deg) scale(1);
+    transform: rotate(-45deg) scale(1);
+}
+
+.checkbox label {
+    min-height: 24px;
+    padding-left: 35px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+    vertical-align: sub;
+}
+input[type="checkbox"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+.poin-slider>li:hover span{
+    display:block;
+   
+    
+    background-color: #1FBBA6; 
+}
+li.active.list-active{
+    background-color:#1FBBA6;
+    
+}
+ .stage{
+    position: absolute;
+   left:-84px;
+   width:115px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-radius:20px;
+   
+}
+        .screens{
+             position: absolute;
+     left:-74px;
+   width:93px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+    
+        }    
+        .customization{
+                   position: absolute;
+    left:-144px;
+   width:154px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+   border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+            
+        }
+        .login{
+     position: absolute;
+    left:-151px;
+   width:169px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+        }
+        .Data{
+            position:absolute;
+             left:-121px;
+   width:139px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+        }
+        .integrate{
+            position:absolute;
+            left:-90px;
+   width:100px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+        }
+        .location{
+             position:absolute;
+            left:-186px;
+   width:203px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+        }
+        .third-parties{
+            position:absolute;
+            left:-129px;
+   width:146px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+        }
+        .payment{
+            position:absolute;
+             left:-186px;
+   width:206px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+        }
+        .sync-data{
+            position:absolute;
+            left:-119px;
+   width:134px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+        }
+        .notifications{
+            position:absolute;
+            left:-130px;
+   width:140px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+        }
+        .security{
+            position:absolute;
+            left:-90px;
+   width:100px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+        }
+        .analytics{
+            position:absolute;
+             left:-90px;
+   width:100px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+        }
+       .content{
+           position:absolute;
+            left:-241px;
+   width:258px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+       }
+       .project-design{
+           position:absolute;
+            left:-90px;
+   width:100px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+       }
+       .amount{
+       position:absolute;
+        left:-173px;
+   width:186px;
+    display:none;
+    font-size:22px;
+    background-color:#1FBBA6;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    height:28px;
+       
+       }
+       .content-box{
+           min-height:420px;
+       }
+      
+      .get_cost_button{
+          margin:25px 32px 10px 70px;
+            padding:7px 14px;
+            border-radius:20px;
+            
+            background-color: #1FBBA6;
+            
+    font-family: clanpro-bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    z-index: 3;
+    
+    border: 3px solid #1fbba6;
+
+    text-shadow: 0px 0px 0px #fff;
+    color:#fff;
+          
+      }
+      .get_cost_button:hover{
+           color: #1FBBA6;
+            background-color:#fff;
+            border: 3px solid #1fbba6;
+      }
+      .container{
+          display:block;
+          cursor:pointer;
+          font-size:22px;
+      }
+      .container input{
+          position:absolute;
+          
+          cursor:pointer;
+          opacity:0;
+          left:-4px;
+          top:-10px;
+      }
+      .checkmark{
+          position:absolute;
+          top:-3px;
+          left:-7pxpx;
+          height:25px;
+          width:25px;
+          background-color:white;
+          border:2px solid #1fbba6;
+          border-radius:50%;
+          z-index:-1;
+          left:-10px;
+          top:-11px;
+      }
+      .checkmark::after {
+    content: "";
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /* background: green; */
+    z-index: -1;
+    background-color: #1fbba6;
+    color: white;
+    display:none;
+    
+      }
+     .container input:checked ~ .checkmark::after {
+    display: block;
+}
+.left-right-slide span{
+    text-decoration:none;
+}
+a:focus, a:hover {
+
+    text-decoration: none;
+}
+button:focus,input:focus{
+    outline:none !important;
+    box-shadow:0px 0px 0px #000 !important;
+    -webkit-box-shadow:0px 0px 0px #000 !important;
+    border-color:inherit !important;
+}
+
+button:focus,.start-my-project:focus{
+    outline:none;
+}
+.loader-container{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:25;
+    background-color:#fff;
+    display:none;
+    
+}
+.loader{
+    border:16px solid rgb(0,0,0);
+    border-top:16px solid #1fbba6;
+    width:50px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+    animation: spin 2s linear infinite;
+    margin-top: 200px;
+    border-radius: 50%;
+    
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.heading-message{
+    text-align:center;
+}
+.right-icons{
+    background-color:#1fbba6;
+    color:white;
+    text-align:center;
+    font-size:48px;
+    border-radius:50%;
+    padding:10px;
+}
+.check-icon{
+    height:200px;
+    text-align:center;
+    font-size:24px;
+    padding:40px;
+}
+.check-icon p{
+    margin-top:10px;
+}
+.estimate-ammount{
+    margin-top:200px;
+    padding:0px 25px;
+}
+.total-estimate-ammount{
+    color:#1fbba6;
+}
+.total-amount-value{
+        color:#1fbba6;
+}
+.dollar{
+    color:#1fbba6;
+}
+.close-modal{
+color:#1fbba6;
+
+}
+.close-modal:hover{
+    background-color:#1fbba6;
+    color:#fff;
+}
+
+
+
+
+      
+       
+    </style>
+    </head>
+<body>
+    
+<!-- Modal -->
+<div id="myModal-price" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close close-modal"   data-dismiss="modal">&times;</button>
+        <h3>Total Estimate Cost:<span class="total-amount-value"></span><span class="dollar">$</span></h3>
+      </div>
+      <div class="modal-body">
+        <table class="sleep-cost table table-striped table-bordered table-hovere" style="border:1px solid black;">
+             <tr>
+                 <td class="table-title">Title</td>
+                 <td class="table-selector">Selector</td>
+                 <td class="table-cost">Cost$</td>
+             </tr>
+             <tr>
+                 <td class="table-project-platform">Project Platform</td>
+                 <td class="table-project-selector"></td>
+                 <td class="table-project-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-screen">Screen</td>
+                 <td class="table-screen-selector"></td>
+                 <td class="table-screen-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-design-customization">Design-customization</td>
+                 <td class="table-design-customization-selector"></td>
+                 <td class="table-design-customization-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-login-system">Login System</td>
+                 <td class="table-login-system-selector"></td>
+                 <td class="table-login-system-cost" style="color:#1fbba6;"></td>
+
+             </tr>
+             <tr>
+                 <td class="table-data">Data store</td>
+                 <td class="table-data-selector"></td>
+                 <td class="table-data-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-integrate">Integrate</td>
+                 <td class="table-integrate-selector"></td>
+                 <td class="table-integrate-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-location">Location</td>
+                 <td class="table-location-selector"></td>
+                 <td class="table-location-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-third-paries">Third Parties</td>
+                 <td class="table-third-parties-selector"></td>
+                 <td class="table-third-parties-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-project-payment">Project payment</td>
+                 <td class="table-project-payment-selector"></td>
+                 <td class="table-project-payment-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-sync-data">Sync Data</td>
+             <td class="table-sync-data-selector"></td>
+             <td class="table-sync-data-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-notification">Notification</td>
+                 <td class="table-notification-selector"></td>
+                 <td class="table-notification-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-security">Security</td>
+                 <td class="table-security-selector"></td>
+                 <td class="table-security-cost" style="color:#1fbba6;"></td>
+             </tr>
+             <tr>
+                 <td class="table-analytics">Analytics</td>
+                 <td class="table-analytics-selector"></td>
+                 <td class="table-analytics-cost" style="color:#1fbba6;"></td>
+                 
+             </tr>
+             <tr>
+                 <td class="table-content-management">Content Management</td>
+                 <td class="tablecontent-management-selector"></td>
+                 <td class="table-content-management-cost" style="color:#1fbba6;"></td>
+                 
+             </tr>
+             <tr>
+                 <td class="table-project-design">Project Design</td>
+                 <td class="table-project-design-selector"></td>
+                 <td class="table-project-design-cost" style="color:#1fbba6;"></td>
+             </tr>
+          </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default close-modal" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    <!-- loading icons comes here-->
+    <div class="loader-container">
+        <div class="loader"></div>
+        <div class="message-center">
+        <h1 class="heading-message" style="margin:20px auto;">Processing...</h1>
+    </div>
+    </div>
+    <!--closing of loading icons-->
+    <!--modal-->
+    <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content modal-form">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+  
+      </div>
+      <div class="modal-body check-icon">
+          <i class="fa fa-check right-icons"></i>
+        <p>Thanku for query</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+
+</div>
+    </div>
+    </div>
+    
+     <ol class="poin-slider right-carousel-fixed">
+      <li data-target="#myCarousel"  data-slide-to="0" class="active"><span class="stage">platform</span></li>
+      <li data-target="#myCarousel" data-slide-to="1"><span class="screens">screens</span></li>
+      <li data-target="#myCarousel" data-slide-to="2"><span class="customization">customization</span></li>
+        <li data-target="#myCarousel" data-slide-to="3"><span class="login">Login system</span></li>
+        <li data-target="#myCarousel" data-slide-to="4"><span class="Data">Data Store</span></li>
+        <li data-target="#myCarousel" data-slide-to="5"><span class="integrate">Integrate</span></li>
+        <li data-target="#myCarousel" data-slide-to="6"><span class="location">Project Location</span></li>
+        <li data-target="#myCarousel" data-slide-to="7"><span class="third-parties">3rd parties</span></li>
+        <li data-target="#myCarousel" data-slide-to="8"><span class="payment">Project Payment</span></li>
+         <li data-target="#myCarousel" data-slide-to="9"><span class="sync-data">Sync Data</span></li>
+        <li data-target="#myCarousel" data-slide-to="10"><span class="notifications">Notifications</span></li>
+         <li data-target="#myCarousel" data-slide-to="11"><span class="security">Security</span></li>
+          <li data-target="#myCarousel" data-slide-to="12"><span class="analytics">analytics</span></li>
+        <li data-target="#myCarousel" data-slide-to="13"><span class="content">Content Management</span></li>
+        <li data-target="#myCarousel" data-slide-to="14"><span class="project-design">Project Design</span></li>
+         <li data-target="#myCarousel" data-slide-to="15"><span class="amount">Total Amount</span></li>
+
+
+    </ol>
+
+<div class="container-fluid">
+
+
+    <div class="col-md-4 one left-app-cost-calculator">
+        
+        <h1>App Cost Calculator</h1>
+        <img src ="asstets/img/logo-190.png">
+    </div>
+    <div class="col-md-8 two question-container-slider">
+         <div id="myCarousel" class="carousel slide container-slide" data-ride="carousel" data-interval="false">
+             
+   
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner content-box" role="listbox">
+      <div class="item active">
+          
+          <div id="app">
+          
+          <div class="app-platform project-platform">
+              <h1 class="which-platform project-platform-question" id="employee_table"> Which Platforms will your Project run on?</h1>
+              <p class="project-platform-option">Select as many option as you want</p>
+            <div class="col-md-1 number project-platform-option-first">1)</div>
+              <div class="col-md-7 app-name project-platform-name" id="app-choice">
+              Android
+              </div>
+             <div class=" col-md-2 text-right project-platform-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="android app with features" class="view-details">view detail</a>
+                                    </div>
+              <div class="col-md-2 project-platform-checkbox-first">
+            <div class="checkbox">
+  <label>
+     <input type="checkbox" name="" value="">
+     <i class="helper"></i>
+  </label>
+</div>
+
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number project-platform-option-second">2)</div>
+              <div class="col-md-7 app-name project-platform-name-second" id="app-choice">
+              Web
+              </div>
+             <div class=" col-md-2 text-right project-platform-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Website with features" class="view-details">view detail</a>
+                                    </div>
+               <div class="col-md-2 project-platform-checkbox-second">
+            <div class="checkbox">
+  <label>
+     <input type="checkbox" name="" value="">
+     <i class="helper"></i>
+  </label>
+</div>
+
+              
+            
+      </div>
+                              <div class="col-md-1 number project-platform-option-third">3)</div>
+              <div class="col-md-7 app-name project-platform-project-name-third" id="app-choice">
+              Window Phone
+              </div>
+             <div class=" col-md-2 text-right project-platform-view-detail-third">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="window app with features" class="view-details">view detail</a>
+                                    </div>
+               <div class="col-md-2 project-platform-checkbox-third">
+            <div class="checkbox">
+  <label>
+     <input type="checkbox" name="" value="" class="largerCheckbox">
+     <i class="helper"></i>
+  </label>
+</div>
+
+              
+            
+      </div>
+          </div>
+          </div>
+           <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>
+        </div>
+
+      <div class="item">
+          <div class="app-platform project-screens">
+          <h1 class="which-platform project-screens-title"> How many screens will your project require?</h1>
+          <p style="padding: 0px 20px; project-screens-description">The more functionality the project has, the more screens it will require</p>
+              <p style="color: red; font-size: 12px;padding: 0px 20px;" class="project-screens-options-description">select one option only</p>
+ 
+    
+         <div class="col-md-12 screen-content">
+            <div class="col-md-1 number project-screens-option-first">1)</div>
+              <div class="col-md-7 app-name project-screens-page-first">
+              3
+              </div>
+             <div class=" col-md-2 text-right project-screens-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's " class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 project-screens-checkbox-first">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+
+
+              
+            
+      </div>
+      
+            
+              <div class="col-md-1 number project-screens-option-second">2)</div>
+              <div class="col-md-7 app-name project-screens-page-second">
+              3 to 8
+              </div>
+             <div class=" col-md-2 text-right project-screens-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's " class="view-details">view detail</a>
+                                    </div>
+             <div class="col-md-2 project-screens-checkbox-second">
+            <div class="checkbox">
+   <label class="container">
+      <input type="radio" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+              <div class="col-md-1 number project-screens-option-third">3)</div>
+              <div class="col-md-7 app-name project-screens-page-third">
+              9 to 15
+              </div>
+             <div class=" col-md-2 text-right project-screens-view-detail-third">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's " class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 project-screens-checkbox-third">
+            <div class="checkbox">
+ <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+                 <div class="col-md-1 number project-screens-option-four">4)</div>
+              <div class="col-md-7 app-name project-screens-page-four">
+              15+
+              </div>
+             <div class=" col-md-2 text-right project-screens-view-detail-four">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's " class="view-details">view detail</a>
+                                    </div>
+                    <div class="col-md-2 project-screens-checkbox-four">
+            <div class="checkbox">
+ <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+          </div>
+          <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>
+     
+      </div>
+    
+      <div class="item">
+       
+          <div class="app-platform design">
+               <h1 class="which-platform design-title">What level of design customization will your project require?</h1>
+          <p style="padding: 0px 20px;" class="design-description">Different platform use different base template for project which can be left alone or completely customized</p>
+              <p style="color: red; font-size: 12px;padding: 0px 20px;" class="design-decription-option">select one option only</p>
+              <div class="col-md-12 customization-content">
+ 
+            <div class="col-md-1 number" design-option-first>1)</div>
+              <div class="col-md-7 app-name design-first">
+              No customization
+              </div>
+             <div class=" col-md-2 text-right design-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's " class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 design-checkbox-first">
+            <div class="checkbox">
+   <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number design-option-second">2)</div>
+              <div class="col-md-7 app-name design-second">
+              Little customization
+              </div>
+             <div class=" col-md-2 text-right design-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's " class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 design-checkbox-second">
+            <div class="checkbox">
+   <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number design-option-third">3)</div>
+              <div class="col-md-7 app-name design-third">
+              fully customized
+              </div>
+             <div class=" col-md-2 text-right design-view-detail-third">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's " class="view-details">view detail</a>
+                                    </div>
+                    <div class="col-md-2 design-checkbox-third">
+            <div class="checkbox">
+   <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+                <div class="col-md-1 number design-option-four">4)</div>
+              <div class="col-md-7 app-name design-four">
+              i don't know
+              </div>
+             <div class=" col-md-2 text-right design-view-detail-four">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's " class="view-details">view detail</a>
+                                    </div>
+               <div class="col-md-2 design-checkbox-four">
+            <div class="checkbox">
+   <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+                
+          </div>
+ <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>
+    
+      </div>
+        
+      <div class="item">
+       
+          <div class="app-platform login-system">
+               <h1 class="which-platform login-system-title">Will your app need a login system?</h1>
+         
+              <p style="color: red; font-size: 12px;padding: 0px 20px;" class="login-system-option-decription">select one options only</p>
+              <div class="col-md-12 login-content">
+ 
+            <div class="col-md-1 number login-system-option-first">1)</div>
+              <div class="col-md-7 app-name login-system-first">
+              Yes, Social login
+              </div>
+            <div class=" col-md-2 text-right login-system-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 login-system-checkbox-first">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number login-system-option-second">2)</div>
+              <div class="col-md-7 app-name login-system-second">
+               yes, Email Login
+              </div>
+             <div class=" col-md-2 text-right login-system-view-detail">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                 <div class="col-md-2 login-system-checkbox-second">
+            <div class="checkbox">
+<label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number login-system-option-third">3)</div>
+              <div class="col-md-7 app-name login-system-third">
+              No
+              </div>
+             <div class=" col-md-2 text-right login-system-view-detail-third">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                <div class="col-md-2 login-system-checkbox-third">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+               
+                
+          </div>
+  <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>
+    
+      </div>
+              <div class="item">
+       
+          <div class="app-platform data-store">
+               <h1 class="which-platform data-store-title">What Kind of data will you store?</h1>
+         
+              <p style="color: red; font-size: 12px;padding: 0px 20px;" data-store-title-option-decription>select one options only</p>
+              <div class="col-md-12 data-store-content">
+ 
+            <div class="col-md-1 number data-store-option-first">1)</div>
+              <div class="col-md-7 app-name data-store-first">
+              Simple data (text)
+              </div>
+             <div class=" col-md-2 text-right data-store-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                 <div class="col-md-2 data-store-checkbox-first">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number data-store-option-second">2)</div>
+              <div class="col-md-7 app-name data-store-second">
+               Large files(images,videos,and/or text)
+              </div>
+             <div class=" col-md-2 text-right data-store-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 data-store-checkbox-second">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number data-store-option-third">3)</div>
+              <div class="col-md-7 app-name data-store-third">
+              None
+              </div>
+             <div class=" col-md-2 text-right data-store-view-detail-third">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 data-store-checkbox-third">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+               
+                
+          </div>
+   <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>
+    
+      </div>
+          <div class="item">
+       
+          <div class="app-platform integrat">
+               <h1 class="which-platform integrate-title">Will you need to integrate with any existing data sources?</h1>
+               <p style="padding: 0px 20px;" class="integrate-decription">Will you nees to pull your data from a website or some other sources?</p>
+         
+              <p style="color: red; font-size: 12px;padding: 0px 20px;" class="integrate-option-decription">select one options only</p>
+              <div class="col-md-12 integrate-data-content">
+ 
+            <div class="col-md-1 number integrate-option-first">1)</div>
+              <div class="col-md-7 app-name integrate-first">
+               Yes, simple
+              </div>
+             <div class=" col-md-2 text-right integrate-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 integrate-checkbox-first">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number integrate-option-second">2)</div>
+              <div class="col-md-7 app-name integrate-second">
+              Yes, Advanced
+              </div>
+             <div class=" col-md-2 text-right integrate-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 integrate-checkbox-second">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number integrate-option-third">3)</div>
+              <div class="col-md-7 app-name integrate-third">
+              No
+              </div>
+             <div class=" col-md-2 text-right integrate-view-detail-third">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2">
+            <div class="checkbox integrate-checkbox-third">
+<label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+               
+                
+          </div>
+
+      <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>
+      </div>
+               <div class="item">
+       
+          <div class="app-platform location-data">
+               <h1 class="which-platform location-data-title">Will your project use location data?</h1>
+         
+              <p style="color: red; font-size: 12px;padding: 0px 20px;" class="location-data-option-decription">select one options only</p>
+              <div class="col-md-12 location-data-content">
+ 
+            <div class="col-md-1 number location-data-option-first">1)</div>
+              <div class="col-md-7 app-name location-data-first">
+               Yes
+              </div>
+            <div class=" col-md-2 text-right location-data-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 location-data-checkbox-first">
+            <div class="checkbox">
+<label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number location-data-option-second">2)</div>
+              <div class="col-md-7 app-name location-data-second">
+              No
+              </div>
+            <div class=" col-md-2 text-right location-data-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                 <div class="col-md-2 location-data-checkbox-second">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number location-data-option-third">3)</div>
+              <div class="col-md-7 app-name location-data-third">
+              Both
+              </div>
+             <div class=" col-md-2 text-right location-data-view-detail-third">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 location-data-checkbox-third">
+            <div class="checkbox">
+<label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+                            <div class="col-md-1 number location-data-option-four">4)</div>
+              <div class="col-md-7 app-name location-data-four">
+              None
+              </div>
+             <div class=" col-md-2 text-right location-data-view-detail-four">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 location-data-checkbob-four">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+               
+                
+          </div>
+   <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>
+    
+      </div>
+         <div class="item">
+       
+          <div class="app-platform third-party">
+               <h1 class="which-platform third-parties-title">Will you integrate data from any 3rd parties?</h1>
+         
+              <p style="padding: 0px 20px;" class="third-parties-decription">Do you need to pull information from a sorce that isn't yours? Whether it is simple of complex depends on the amount of data</p>
+               <p style="color: red; font-size: 12px;padding: 0px 20px;" class="third-parties-option-decription">select one options only</p>
+               <div class="col-md-12 third-party-content">
+ 
+            <div class="col-md-1 number third-parties-option-first">1)</div>
+              <div class="col-md-7 app-name third-parties-first">
+               Yes, Simple
+              </div>
+             <div class=" col-md-2 text-right third-parties-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                 <div class="col-md-2 third-parties-checkbox-firs">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number third-parties-option-second">2)</div>
+              <div class="col-md-7 app-name third-parties-second">
+              Yes, Advanced
+              </div>
+             <div class=" col-md-2 text-right third-parties-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 third-parties-checkbox-second">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number third-parties-option-third">3)</div>
+              <div class="col-md-7 app-name third-parties-third">
+              None
+              </div>
+              <div class=" col-md-2 text-right third-parties-view-detail-third">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 third-parties-checkbox-third">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+               
+               
+                
+          </div>
+  <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>
+    
+      </div>
+                 <div class="item">
+       
+          <div class="app-platform project-payment">
+               <h1 class="which-platform project-payment-decription">Will your project use in project payments?</h1>
+         
+               <p style="color: red; font-size: 12px;padding: 0px 20px;" class="project-payment-option-decription">select one option only</p>
+               <div class="project-payment-content">
+ 
+            <div class="col-md-1 number project-payment-option-first">1)</div>
+              <div class="col-md-7 app-name project-payment-first">
+               Yes
+              </div>
+             <div class=" col-md-2 text-right project-payment-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                 <div class="col-md-2 project-payment-checkbox-first">
+            <div class="checkbox">
+<label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number project-payment-option-second">2)</div>
+              <div class="col-md-7 app-name project-payment-second">
+              No
+              </div>
+             <div class=" col-md-2 text-right project-payment-view-details-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 project-payment-checkbox-second">
+            <div class="checkbox">
+ <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+      </div>
+         <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>    
+      </div>
+             <div class="item">
+       
+          <div class="app-platform sync-data-device">
+               <h1 class="which-platform sync-data-title">Will your project need to sync data across devices?</h1>
+         
+               <p style="color: red; font-size: 12px;padding: 0px 20px;" class="sync-data-option-description">select one option only</p>
+               <div class="sync-data-content">
+ 
+            <div class="col-md-1 number sync-data-option-first">1)</div>
+              <div class="col-md-7 app-name sync-data-first">
+               Yes
+              </div>
+             <div class=" col-md-2 text-right sync-data-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 sync-data-checkbox-first">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number sync-data-option-second">2)</div>
+              <div class="col-md-7 app-name sync-data-second">
+              No
+              </div>
+             <div class=" col-md-2 text-right sync-data-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+      <div class="col-md-2  sync-data-checkbox-second">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+      </div>
+          <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>    
+      </div>
+          <div class="item">
+       
+          <div class="app-platform  project-notifications">
+               <h1 class="which-platform notifications-title">Will your project have push notifications?</h1>
+         
+               <p style="color: red; font-size: 12px;padding: 0px 20px;" class="notifications-option-decription">select one option only</p>
+              <div class="col-md-12 notification-content">
+            <div class="col-md-1 number notifications-option-first">1)</div>
+              <div class="col-md-7 app-name notifications-first">
+               Yes
+              </div>
+             <div class=" col-md-2 text-right notifications-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 notifications-checkbox-first">
+            <div class="checkbox">
+<label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number notifications-options-second">2)</div>
+              <div class="col-md-7 app-name notifications-second">
+              No
+              </div>
+             <div class=" col-md-2 text-right notifications-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 notifications-checkbox-second">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+      </div>
+         <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>    
+      </div>
+          <div class="item">
+       
+          <div class="app-platform security-need">
+               <h1 class="which-platform security-title">What level of security will you need?</h1>
+         
+               <p style="color: red; font-size: 12px;padding: 0px 20px;" class="security-option-decription">select one option only</p>
+               <div class="col-md-12 security-content">
+ 
+            <div class="col-md-1 number security-option-first">1)</div>
+              <div class="col-md-7 app-name security-first">
+               Basic(simple login and password)
+              </div>
+             <div class=" col-md-2 text-right security-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 security-checkbox-first">
+            <div class="checkbox">
+ <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number security-option-second">2)</div>
+              <div class="col-md-7 app-name security-second">
+              Advanced (advanced encryption)
+              </div>
+             <div class=" col-md-2 text-right security-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 security-checkbox-second">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+               <div class="col-md-1 number security-option-third">3)</div>
+              <div class="col-md-7 app-name security-third">
+              None
+              </div>
+              <div class=" col-md-2 text-right security-view-detail-third">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 security-checkbox-third">
+            <div class="checkbox">
+ <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+             
+      </div>
+         <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>    
+      </div>
+                  <div class="item">
+       
+          <div class="app-platform track">
+               <h1 class="which-platform track-title">What kind of analytics data will you track?</h1>
+         
+               <p style="color: red; font-size: 12px;padding: 0px 20px;" class="track-option-decription">select one option only</p>
+               <div class="col-md-12 track-content">
+ 
+            <div class="col-md-1 number track-option-first">1)</div>
+              <div class="col-md-7 app-name track-first">
+               Minimal
+              </div>
+             <div class=" col-md-2 text-right track-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 track-checkbox-first">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number track-option-second">2)</div>
+              <div class="col-md-7 app-name track-second">
+              Everything
+              </div>
+             <div class=" col-md-2 text-right track-view-detail-srcond">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 track-checkbox-second">
+            <div class="checkbox">
+ <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+               <div class="col-md-1 number track-option-third">3)</div>
+              <div class="col-md-7 app-name track-third">
+              None
+              </div>
+              <div class=" col-md-2 text-right track-view-detail-third">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                <div class="col-md-2 track-checkbox-third">
+            <div class="checkbox">
+ <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+            
+      </div>
+           <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>   
+      </div>
+                  <div class="item">
+       
+          <div class="app-platform management-system">
+               <h1 class="which-platform management-system-title">Will you need a content management system to administer your project?</h1>
+         
+               <p style="color: red; font-size: 12px;padding: 0px 20px;" class="management-system-option-decription">select one option only</p>
+               <div class="col-md-12 management-content">
+ 
+            <div class="col-md-1 number management-system-option-first">1)</div>
+              <div class="col-md-7 app-name management-system-first">
+               Yes
+              </div>
+             <div class=" col-md-2 text-right management-system-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 management-system-checkbox-first">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number management-system-option-second">2)</div>
+              <div class="col-md-7 app-name management-system-second">
+              No
+              </div>
+            <div class=" col-md-2 text-right management-system-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                   <div class="col-md-2 management-system-checkbox-second">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+      </div>
+             
+            
+      </div>
+           <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>   
+      </div>
+              <div class="item">
+       
+          <div class="app-platform project-design-need">
+               <h1 class="which-platform project-design-title">Would you need us to do the project design?</h1>
+         
+               <p style="color: red; font-size: 12px;padding: 0px 20px;" class="project-design-option-description">select one option only</p>
+               <div class="col-md-12 project-design-content">
+ 
+            <div class="col-md-1 number project-design-option-first">1)</div>
+              <div class="col-md-7 app-name project-design-first">
+               Yes
+              </div>
+             <div class=" col-md-2 text-right project-design-view-detail-first">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 project-design-checkbox-first">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+            
+              <div class="col-md-1 number project-design-option-second">2)</div>
+              <div class="col-md-7 app-name project-design-second">
+              No
+              </div>
+             <div class=" col-md-2 text-right project-design-view-detail-second">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!" class="view-details">view detail</a>
+                                    </div>
+                  <div class="col-md-2 project-design-checkbox-second">
+            <div class="checkbox">
+  <label class="container">
+      <input type="radio" checked="checked" name="radio" value="">
+        <span class="checkmark"></span>
+    
+  </label>
+</div>
+
+              
+            
+      </div>
+     
+      </div>
+      
+            
+            
+      </div>
+       <div class="estimate-ammount">Total estimate ammount:
+          <span class="total-estimate-ammount"></span>
+          <span class="dollar">$</span>
+      </div>
+             
+      </div>
+          <div class="item">
+       
+          <div class="app-platform final-step">
+               <h1 class="which-platform final-step-title">We're almost done?</h1>
+               <p style="padding: 0px 20px" class="final-step-decription">(just one more step before we give you estimate)</p>
+              <div class="col-md-4">
+              <form name="my-project-form-group" action="#" method="post">
+  <div class="form-group">
+    <label for="Name">Name:</label>
+    <input type="name" class="form-control name" id="email" name="name">
+  </div>
+  <div class="form-group">
+     <label for="email">Email address:</label>
+    <input type="email" class="form-control email" id="email" name="email">
+  </div>
+ <div class="form-group">
+     <label for="number">Phone:</label>
+    <input type="text" class="form-control phone-number" id="number" name="phone-number">
+  </div>
+  
+  <button type="submit" class="btn btn-default start-my-project">Start my project</button>
+</form>
+              </div>
+              <div class="col-md-4 total-amount">
+                  <button type="button" class="get_cost_button">Total Cost</button>
+                  <h3><span class="total-amount-value dollar"></span><span class="dollar">$</span></h3>
+       
+              </div>
+         
+            
+      </div>
+             
+      </div>
+    </div>
+
+ <!-- Left and right controls -->
+             <div class="left-right-slide">
+  <a class="left " href="#myCarousel" data-slide="prev">
+    <span class="previous mg-0-20 left-side">Prev</span>
+  </a>
+  <a class="right " href="#myCarousel" data-slide="next">
+<span class="nexti mg-0-20 right-side">Next</span>
+  </a>
+</div>
+            
+   
+</div>
+        </div>
+   
+    <!--closing of slider container-->
+    
+       
+            </div>
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<script type="text/javascript" src="assets/javascript/app_calculator.js"></script>
+
+
+</body>
+    
+    

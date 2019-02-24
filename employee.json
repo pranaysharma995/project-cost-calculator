@@ -1,0 +1,77 @@
+[
+    {
+        "title":"which platform will your",
+        "choice":["Pranay", "andro","iphone"],
+        "price":["200","200","200"]
+},
+{
+    "title":"how many screen will your project require",
+    "choice":["abhishek","3to8","9to15","15+"],
+    "price":["200","400","600","800"]
+},
+{
+    "title":"what level of design customization will your project require",
+    "choice":["harish","little customization","fully customization","i dont know"],
+    "price":["200","400","600","800"]
+},
+{
+    "title":"will your app need a login system",
+    "choice":["ashpi", "yes email login", "no"],
+    "price":["200","400","600"]
+    
+},
+{
+"title":"what kind of data will you store",
+"choice":["sachin","large files","none"],
+"price":["200","400","600"]
+},
+{
+    "title":"Will you need to integrate with any existing data sources?",
+    "choice":["yes simple","yes advanced","none"],
+    "price":["200","400","600"]
+},
+{
+    "title":"will your project use location data",
+    "choice":["yes","no","both","none"],
+    "price":["200","400","600","800"]
+},
+{
+    "title":"Will you integrate data from any 3rd parties?",
+    "choice":["Yes, Simple","Yes, Advanced","None"],
+    "price":["200","400","600"]
+},
+{
+    "title":"Will your project use in project?",
+    "choice":["yes","no"],
+    "price":["200","400"]
+},
+{
+    "title":"Will your project need to sync data across devices?",
+    "choice":["yes","no"],
+    "price":["200","400"]
+},
+{
+    "title":"Will your project have push notifications?",
+    "choice":["yes","no"],
+    "price":["200","400"]
+},
+{
+    "title":"what level of security will you need",
+    "choice":["Basic","advanced","none"],
+    "price":["200","400","600"]
+},
+{
+    "title":"What kind of analytics data will you track?",
+    "choice":["minimal","everything","none"]
+},
+{
+    "title":"Will you need a content management system to administer your project?",
+    "choice":["yes","no"],
+    "price":["200","400"]
+},
+{
+    "title":"Would you need us to do the project design?",
+    "choice":["yes","no"],
+    "price":["200","400"]
+}
+]
